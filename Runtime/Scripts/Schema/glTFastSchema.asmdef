@@ -1,6 +1,8 @@
 {
     "name": "glTFastSchema",
-    "references": [],
+    "references": [
+        "meshoptimizer"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
@@ -18,6 +20,11 @@
             "name": "com.atteneder.ktx",
             "expression": "1.1.0",
             "define": "KTX_UNITY"
+        },
+        {
+            "name": "com.unity.meshoptimizer",
+            "expression": "",
+            "define": "MESHOPT"
         },
         {
             "name": "com.unity.modules.animation",
