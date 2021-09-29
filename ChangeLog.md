@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [4.3.2] - 2020-10-13
 ### Added
+- Support for meshopt compressed glTFs (EXT_meshopt_compression; #106)
 - Completed quantization by supporting UInt8/UInt16 skin bone weights
 ### Changes
 - If `skin.skeleton` is properly set, `SkinnedMeshRendererRoot`'s root bone property will be assigned accordingly
